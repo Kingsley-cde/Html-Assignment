@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Challenge</title>
+  </head>
+  <body>
+    <form action="/forms.html" method="post">
+      <br />
+      <br />
+      <br />
+      <h1 style="text-align: center">
+        Thank you for joining us for a session at Code Labs Academy!
+      </h1>
+      <br />
+      <div style="text-align: center">
+        <label for="Date">Session Date:</label>
+        <input type="date" name="Date" id="Date" />
+        <label for="Other">Subject</label>
+        &nbsp;<select name="date" id="Other" style="width: 100px">
+          <option value="" disable selected hidden>Other</option>
+          <option value="12 / 04 / 1997">12 / 04 / 1997</option>
+          <option value="19 / 02 / 1993">19 / 02 / 1993</option>
+          <option value="1 / 07 / 1994">1 / 07 / 1994</option>
+        </select>
+        <br />
+        <p>
+          Please mention any topics you would like to ask further questions or
+          gather more information on.
+        </p>
+        <textarea name="topics" id="topics" cols="50" rows="8"></textarea>
+        <br />
+        <br />
+        <br />
+        <label for="study">Do you study at home</label>
+        <input type="checkbox" name="Yescheckbox" id="Yescheckbox" />
+        <label for="Yes">Yes</label>
+        <input type="checkbox" name="Nocheckbox" id="Nocheckbox" />
+        <label for="No">No</label>
+        <br />
+        <br />
+        <p>Why are you seeking more information on these topics?</p>
+        <br />
+        <input type="checkbox" name="interested" id="interested" />
+        <label for="interested"
+          >I am interested in a more in depth discussion</label
+        >
+        <br />
+        <input type="checkbox" name="didntunderstand" id="didntunderstand" />
+        <label for="didntunderstand"
+          >I didn't understand it in the session</label
+        >
+        <br />
+        <input type="checkbox" name="phoneapps" id="phoneapps" />
+        <label for="phoneapps">Phone apps</label>
+        <br />
+        <br />
+        <label for="howinformative"
+          >On a scale of 1 to 5*, please indicate how informative you felt the
+          session was.</label
+        >
+        &nbsp;<input type="text" name="howinformative" id="howinformative" />
+        <br />
+        <br />
+        <label for="howengaging"
+          >On a scale of 1 to 5*, please indicate how engaging you felt the
+          session was.</label
+        >
+        &nbsp;<input type="text" name="howengaging" id="howengaging" />
+        <br />
+        <br />
+        <label for="howlikely"
+          >On a scale of 1 to 5*, please indicate how likely you feel it is that
+          you would recommend the course to a friend.</label
+        >
+        &nbsp;<input type="text" name="howlikely" id="howlikely" />
+        <p>Please use this space to give us any other feedback you may have.</p>
+        <textarea name="feedback" id="feedback" cols="50" rows="8"></textarea>
+        <br />
+        <br />
+        <label for="email">Email address:</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <input
+          type="submit"
+          value="Submit form"
+          style="width: 150px"
+          height="150px"
+        />
+        <!-- Questions
+        how to remove other from options list
+        how to resize hieght of buttons
+        how to click only one checkbox when choosing
+        how to add default text -->
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+    </form>
+  </body>
+</html>
